@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Travel Destination</title>
+  <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="#" class="logo">IndiaTour</a>
+      <nav>
+        <a href="#destinations">Destinations</a>
+        <a href="#packages">Packages</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero" class="hero" style="background-image: url('images/bg.jpg');">
+    <div class="hero-content">
+      <h1>Discover Your Dream Destination</h1>
+      <p>Explore amazing places and create unforgettable memories.</p>
+      <a href="#destinations" class="btn">Explore Now</a>
+    </div>
+  </section>
+
+  <section id="destinations" class="section">
+    <div class="container">
+      <h2>Popular Destinations</h2>
+      <div class="destination-grid">
+        <div class="destination">
+          <img src="images/goa.jpg" alt="Goa">
+          <h3>Goa</h3>
+          <p>Beaches and nightlife.</p>
+          <a href="#" class="destination-link">Learn More</a>
+        </div>
+        <div class="destination">
+          <img src="images/kerela.jpg" alt="Kerala">
+          <h3>Kerala</h3>
+          <p>Backwaters and greenery.</p>
+          <a href="#" class="destination-link">Learn More</a>
+        </div>
+        <div class="destination">
+          <img src="images/manali.jpeg" alt="Manali">
+          <h3>Manali</h3>
+          <p>Mountain adventures.</p>
+          <a href="#" class="destination-link">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages" class="section">
+    <div class="container">
+      <h2>Tour Packages</h2>
+      <div class="package-grid">
+        <div class="package">
+          <h3>Goa Getaway</h3>
+          <p>3 Days, 2 Nights</p>
+          <p>Price: $300</p>
+          <button class="book-btn">Book Now</button>
+        </div>
+        <div class="package">
+          <h3>Kerala Backwater Tour</h3>
+          <p>5 Days, 4 Nights</p>
+          <p>Price: $500</p>
+          <button class="book-btn">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2>Photo Gallery</h2>
+      <div class="gallery">
+        <img src="images/Tree.jpg" alt="Gallery 1">
+        <img src="images/GoaTour.jpg" alt="Gallery 2">
+        <img src="images/Manali.jpg" alt="Gallery 3">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div id="formMessage" class="form-message"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Your Travel Destination</p>
+    </div>
+  </footer>
+
+  <script src="basic.js"></script>
+</body>
+</html>
